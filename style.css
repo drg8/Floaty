@@ -5,8 +5,7 @@
   font-family: system-ui, sans-serif;
 }
 .image-grid img {
-  width: 55%;
-  min-width: 300px; /* optional safety cap */
+  max-width: 500px; /* optional safety cap */
   margin: 0 auto;
   display: block;
 }
