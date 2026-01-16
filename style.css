@@ -6,7 +6,7 @@
 }
 .image-grid img {
   width: 75%;
-  /*max-width: 300px; /* optional safety cap */
+  mix-width: 300px; /* optional safety cap */
   margin: 0 auto;
   display: block;
 }
