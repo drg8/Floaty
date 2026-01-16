@@ -10,6 +10,36 @@ body {
   line-height: 1.6;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #ff6b00;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 .hero {
   background: #111;
   color: white;
